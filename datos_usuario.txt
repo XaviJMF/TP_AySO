@@ -1,1 +1,3 @@
 Usuario=%(whoami)
+Comentario=,,,
+Home=/home/vagrant
