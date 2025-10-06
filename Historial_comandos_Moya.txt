@@ -1,0 +1,89 @@
+ssh-keygen
+pwd
+ls -la
+cd .ssh/
+ls -la
+pwd
+cd
+pwd
+ssh-keygen
+ls -l
+ssh-keygen
+cd
+cd .ssh
+cat id_rsa.pub
+cd
+ls -la
+cd repogit
+ls -l
+git clone git@github.com:XaviJMF/TP_AySO.git
+ls -l
+cd
+cd repogit
+cd TP_AySO
+cat/etc/mtab
+cd T
+cat /etc/mtab
+man grep
+grep SYSFS /etc/mtab
+grep home_url /etc/os-release
+grep -i Sysfs /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+whoami
+echo "Usuario=%(whoami)" > datos_usuario.txt
+git add .
+git config --global "javierfm0416@gmail.com"
+git config --global user.email "javierfm0416@gmail.com"
+git config --gloabl user.name "XaviJMF"
+git config --global user.name "XaviJMF"
+giy commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "$(whoami:" /etc/passwd | awk -F: '{print "Comentario="$5"\nHome="$6} >> datos_usuario.txt
+
+return
+vagrant
+esc
+grep "$(whoami):" /etc/passwd | awk -F: '{print "Comentario="$5"\nHome="$6} >> datos_usuario.txt
+exit
+
+>
+grep "$(whoami):" /etc/passwd | awk -F: '{print "Comentario="$5"\nHome="$6} >> datos_usuario.txt
+grep "$(whoami):" /etc/passwd | awk -F: '{print "Comentario="$5"\nHome="$6}' >> datos_usuario.txt
+cat datos_usuarios.txt
+cat datos_usuario.txt
+git add datos_usuarios.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del Usuario"
+git push
+cat <<EOF > README.md
+Alumno: Fernando Moya Javier
+Division: 115
+Turno: Mañana
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y Datos de usuario"
+git push
+mkdir -p $HOME/TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6,Clase6}}
+tree
+cd ..
+tree
+sudo apt install tree
+cd repogit
+cd TP_AySO
+tree
+sudo apt update
+sudo apt install tree
+tree
+cd ..
+tree
+cd repogit
+cd TP_AySO
+echo "mkdir -p $HOME/TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6,Clase6}}" > script_dir.sh
+chmod 777 script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
